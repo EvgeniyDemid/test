@@ -13,5 +13,6 @@ public class OzonTest {
         Selenide.sleep(1000);
         $(byXpath("//a[contains(text(),'Электроника')]")).shouldBe(Condition.visible);
         $(byXpath("//a[contains(text(),'Акции')]")).shouldBe(Condition.visible);
+
     }
 }
